@@ -10,7 +10,7 @@ pin5= createSprite(200,340,20,20);
 pin6= createSprite(240,340,20,20);
 
 squaraid=createSprite(200,100,30,30);
-squaraid.shapeColor="red";
+squaraid.shapeColor="white";
 squaraid.velocityX=4;
 squaraid.velocityY=0.5;
 
