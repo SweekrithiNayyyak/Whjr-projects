@@ -4,7 +4,7 @@ class Food {
     this.lastFed;
     this.image=loadImage('Milk.png');
     }
-
+//update the number of milk bottles
    updateFoodStock(foodStock){
     this.foodStock=foodStock;
    }
@@ -18,7 +18,7 @@ class Food {
       this.foodStock=this.foodStock-1;
      }
     }
-
+//number of food stock remianing
     getFoodStock(){
       return this.foodStock;
     }
